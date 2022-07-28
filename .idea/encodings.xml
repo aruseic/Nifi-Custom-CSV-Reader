@@ -17,18 +17,6 @@
     <file url="file://$PROJECT_DIR$/customcsvreader/nifi-CustomReader/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/customcsvreader/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/customcsvreader/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/execute-database-record" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/execute-database-record/nifi-org.safaricom.execute-database-record-nar" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/execute-database-record/nifi-org.safaricom.execute-database-record-processors" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/execute-database-record/org.safaricom.execute-database-record-nar" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/execute-database-record/org.safaricom.execute-database-record-nar/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/execute-database-record/org.safaricom.execute-database-record-nar/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/execute-database-record/org.safaricom.execute-database-record-processors" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/execute-database-record/org.safaricom.execute-database-record-processors/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/execute-database-record/org.safaricom.execute-database-record-processors/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/execute-database-record/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/execute-database-record/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+
   </component>
 </project>
