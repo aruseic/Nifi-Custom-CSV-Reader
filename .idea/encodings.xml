@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customcsvreader" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customcsvreader/nifi-CustomReader" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customcsvreader/nifi-CustomReader-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customcsvreader/nifi-CustomReader-api-nar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customcsvreader/nifi-CustomReader-api-nar/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customcsvreader/nifi-CustomReader-api-nar/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customcsvreader/nifi-CustomReader-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customcsvreader/nifi-CustomReader-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customcsvreader/nifi-CustomReader-nar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customcsvreader/nifi-CustomReader-nar/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customcsvreader/nifi-CustomReader-nar/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customcsvreader/nifi-CustomReader/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customcsvreader/nifi-CustomReader/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customcsvreader/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/customcsvreader/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/execute-database-record" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/execute-database-record/nifi-org.safaricom.execute-database-record-nar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/execute-database-record/nifi-org.safaricom.execute-database-record-processors" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/execute-database-record/org.safaricom.execute-database-record-nar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/execute-database-record/org.safaricom.execute-database-record-nar/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/execute-database-record/org.safaricom.execute-database-record-nar/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/execute-database-record/org.safaricom.execute-database-record-processors" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/execute-database-record/org.safaricom.execute-database-record-processors/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/execute-database-record/org.safaricom.execute-database-record-processors/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/execute-database-record/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/execute-database-record/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

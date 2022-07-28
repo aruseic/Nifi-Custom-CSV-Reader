@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nifi-Custom-api" />
+        <module name="nifi-org.safaricom.execute-database-record-processors" />
+        <module name="nifi-org.safaricom.execute-database-record-nar" />
+        <module name="org.safaricom.execute-database-record-nar" />
+        <module name="nifi-CustomReader" />
+        <module name="nifi-CustomReader-api" />
+        <module name="nifi-CustomReader-nar" />
+        <module name="org.safaricom.execute-database-record-processors" />
+        <module name="nifi-CustomReader-api-nar" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="customcsvreader" target="1.8" />
+      <module name="execute-database-record" target="1.8" />
+      <module name="nifi-CdrReader" target="1.8" />
+      <module name="nifi-CdrReader-api" target="1.5" />
+      <module name="nifi-CdrReader-api-nar" target="1.5" />
+      <module name="nifi-Custom-api" target="1.8" />
+      <module name="nifi-CustomReader" target="1.8" />
+      <module name="nifi-CustomReader-api" target="1.8" />
+      <module name="nifi-CustomReader-api-nar" target="1.8" />
+      <module name="nifi-CustomReader-nar" target="1.8" />
+      <module name="nifi-extensions" target="1.8" />
+      <module name="nifi-org.safaricom.execute-database-record-nar" target="1.8" />
+      <module name="nifi-org.safaricom.execute-database-record-processors" target="1.8" />
+      <module name="org.safaricom.execute-database-record-nar" target="1.8" />
+      <module name="org.safaricom.execute-database-record-processors" target="1.8" />
+      <module name="reader" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
