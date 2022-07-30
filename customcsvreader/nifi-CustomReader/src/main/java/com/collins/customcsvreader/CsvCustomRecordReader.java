@@ -184,7 +184,7 @@ public class CsvCustomRecordReader implements RecordReader{
 					schemaIndex++;
 				} else {
 					if(log.isWarnEnabled() && warnExtraFields){
-						log.warn("[{}][{}] The file has more cdr fields than expected", attributeParam);
+						log.warn("[{}][{}] The file has more fields than expected", attributeParam);
 						warnExtraFields = false; //we just want to log this once per file.
 					}
 					break; //drop unknown fields by force
@@ -275,7 +275,7 @@ public class CsvCustomRecordReader implements RecordReader{
 				//if our value is just spaces then skip this is a null that we don't want to add to the array
 				if(value.isEmpty()){
 					if(log.isWarnEnabled()){
-						log.warn("The array in field {} of line {} with text {} has a null {} beween index {} and {}",
+						log.warn("The array in field {} of line {} with text {} has a null {} between index {} and {}",
 							new Object[]
 							{
 								field.getFieldName(),

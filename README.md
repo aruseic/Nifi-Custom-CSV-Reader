@@ -19,10 +19,15 @@ copy the `nifi-CustomReader-nar-1.0.nar` and `nifi-CustomReader-api-nar-1.0.nar`
 apache nifi
 
 ### how to
-Once you have started your apache nifi successfully  you can access the custom reader through controller services. The following are screen images that can help you setup  
+After you have started your apache nifi successfully you can access the custom reader through controller services. The following images can help you setup  
 
 ![](images/image1.png)
+Above image shows nifi convert record processor with reader and write configurations. click on record reader and select create new service and chose CustomCsvReader as shown in t
+image below:
+![](images/image4.png)
 
+after select the custom reader in order to go to the configurations window associated to it as shown below:
 ![](images/image2.png)
 
+click on the configurations icon to configure various options provided by the reader including `field separator` , `nested record separator` , `nested record values separator` among other configurations as shown below
 ![](images/image3.png)

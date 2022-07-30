@@ -28,8 +28,8 @@ import org.apache.nifi.serialization.record.RecordSchema;
 import org.apache.nifi.stream.io.NonCloseableInputStream;
 
 @Tags({ "record", "reader", "delimited", "values" })
-@CapabilityDescription("Parses cdr formatted data, "
- + "ren't well formed and can't be parsed correctly using the nifi csv record reader hence the cdr reader. "
+@CapabilityDescription("Parses record formatted data, "
+ + "arent well formed and can't be parsed correctly using the nifi csv record reader hence the custom  csv reader. "
  + "They also can have nested records within the fields "
  + "By default the reader assumes that the first line in the record is the header line"
 )
@@ -44,7 +44,7 @@ public class CustomCsvReader extends SchemaRegistryService implements RecordRead
         .allowableValues(TRUE, FALSE)
         .defaultValue(TRUE.getValue())
         .required(true)
-        .description("Specifies whether or not the CDR source file has a header line")
+        .description("Specifies whether or not the record source file has a header line")
         .expressionLanguageSupported(ExpressionLanguageScope.NONE)
         .build();
 
@@ -108,7 +108,7 @@ public class CustomCsvReader extends SchemaRegistryService implements RecordRead
         .allowableValues(TRUE, FALSE)
         .defaultValue(FALSE.getValue())
         .required(true)
-        .description("Specifies whether the reader will fail the file on malformed lines or continue. A warning will be logged for each malformed line. You can override by setting the flow file attribute cdrreader.skipmalformedlines")
+        .description("Specifies whether the reader will fail the file on malformed lines or continue. A warning will be logged for each malformed line. You can override by setting the flow file attribute customcsv.skipmalformedlines")
         .expressionLanguageSupported(ExpressionLanguageScope.NONE)
         .build();
 
@@ -205,7 +205,7 @@ public class CustomCsvReader extends SchemaRegistryService implements RecordRead
         boolean skip = skipMalformedLines;
         if(variables != null)
         {
-            String skipValue = variables.get("cdrreader.skipmalformedlines");
+            String skipValue = variables.get("customcsv.skipmalformedlines");
             if(skipValue != null && !skipValue.isEmpty())
             {
                 try
